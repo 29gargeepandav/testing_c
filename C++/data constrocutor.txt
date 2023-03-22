@@ -1,0 +1,11 @@
+Data Abstraction;
+
+it is a process by riched we can partly and full high the data implementation from the user.
+we can achive data abstraction.
+
+using access modifired
+
+usign abstract class(virtual function)
+
+
+Visibility and modifires

@@ -1,0 +1,14 @@
+stack widgets: 
+--------------
+this widgets used for creating a layer of multiple widgets.
+
+MOST IPM :
+
+when we used intwell nd int widgets insode a stack widgets then the splash effects can not be shown.
+ 
+
+Slider -- > value , min, max, onchanged: 
+
+Noted: labled only disible if and only if division are avaible.
+
+

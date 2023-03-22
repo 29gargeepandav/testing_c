@@ -1,0 +1,24 @@
+**types of funtcion parameter
+
+1. Default parameters -- jeni value pahele thi aapvi pade to tene default perameter
+2. Optional perameters
+	-optional posional perameter --> []
+	-optional named perameter --> {}
+3. Required perameter
+-------------------------------------------------------------
+
+Optional posional perameter :
+	-We can create optional posional peramter by wrapping a perameter using square brackets.
+	-potional posional peramter shoude have a default value otherwise it should be null.
+	-we can only and only option posional perameter at last perameter
+
+Optional named perameter :
+	-we can create optional named perameter by wrapping a perameter using curly brackets.
+	-potional named peramter shoude have a default value otherwise it should be null.
+	-we can only and only optional named perameter at last perameter.
+	-at the time of function calling we must have provide named perameters by using it's names. ex. dip(x: 17)
+
+Required Perameter :
+	-We can only used required keyword in optional perameter to create a need for the value of that perameter.
+	-we can any perameter any position
+	-whenever we create required peramter then we cannot supply a default value

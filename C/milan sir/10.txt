@@ -1,0 +1,41 @@
+ASCII value range
+
+a to z ==> 97 to 122
+A to Z ==> 65 to 90
+0 To 9 ==> 48 to 57
+space / blanck / NULL => 32 
+  
+main()
+{
+
+	int i;
+	for(i=97; i<=122; i++)
+	{
+		printf("%d ==> %c\n",i,i);
+	}
+}
+
+
+
+main()
+{
+
+	char i;
+	for(i='a'; i<='z'; i++)
+	{
+		printf("%d ==> %c\n",i,i);
+	}
+}
+
+main()
+{
+
+	char i;
+	for(i='A'; i<='Z'; i++)
+	{
+		printf("%d ==> %c\n",i,i);
+	}
+}
+
+
+

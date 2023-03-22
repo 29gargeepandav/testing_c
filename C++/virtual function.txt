@@ -1,0 +1,84 @@
+Virtual function
+
+-->a c++ virtual function is a member function in the base class that you redefine in a derived class.
+it is declared using the virtual keyword.
+--> there is a necessity to use the single pointer to refer to all the objects of the different classes so, 
+we create the pointer to the base class that refers to all the derived object but, when base class pointercontains the address of the derived class object.
+always excute the base class function this issue can only be resolved by using the 'virtual' function.
+-->a 'virtual' function is a keyword preceding the normal declaration of a function
+--> when the function is a made virtual, c++ determine which function is to be invoked at the runtime based on the type of the object pointed by the base class pointer.
+
+
+Pointer Object
+--> A pointer of specific class.
+for ex. A *o1; // where class is A and o1 is pointer object
+
+--> class member can be accessible by using pointer object with help oh -> operator
+for ex. o1->method();
+	  o1->attribute;
+
+-----------------------------------------
+
+Abstract class
+--> this is a class which cannot be instantiated means an object cannot be created of abstract class
+-->if a class cantains at least one pure virtual function (abstract method) then the class is abstract itself.
+-->abstract calss can contains both concrete(jeni body availble hoy tene) and abstract method(jene body na hoy tene).
+--> to access member of a abstract class, we must have to create a derived class and it;'s object, but in derived class 
+we must first have to implement abstract method that coming from the base calss.
+--> abstract class can force to follow the prototype of our own and not to miss any prototype implementation.
+
+Pure virtual Function(abstract method)
+--> a pure virstual function is a virtual with no body.
+--> it can be created by following syntax:
+
+virtual void method_name() = 0;
+
+
+#include<iostream>
+using namespace std;
+
+class future
+{
+	public :
+	void calling()
+	{
+		cout << "we can call using phone.."  << endl;
+	}
+	// abstract method
+	virtual void movephone() = 0;
+	virtual void dancephone() = 0;
+};
+class present : public future
+{
+	public:
+	void movephone()
+	{
+		cout << "phone is moving......" << endl;
+	}
+};
+class a : public present
+{
+	public:
+	void dancephone()
+	{
+		cout << " phone is dancing....." <<endl;
+	}
+};
+int main()
+{
+	a o1;
+	
+	o1.calling();
+	o1.movephone();
+	o1.dancephone();
+
+	return 0;
+
+}
+
+o/p
+
+we can call using phone..
+phone is moving......
+phone is dancing.....
+

@@ -1,0 +1,51 @@
+Polymorphysm
+
+multiple behariour in 
+polymorphys is greek word.
+
+types of polymorphism
+1. Compile time polimorphysm.
+--> method over loading
+--> operotor overloded.(binary & unary operator)
+
+2. Run time polymorphism
+--> operator overriding
+
+
+Diffent betweens mathod overloding and method overridning
+
+* method overloading :
+
+[	
+	-single class, multiple methods
+	- method name must be same, but parameters are different,
+	-prameters datatype can be differnet with same number of parameter quantity
+]
+
+
+--> its provides multiple definations of the method by changing signature(defination).
+--> method signature should be different
+--> overloaded methods are same scope
+--> it is used when the same function has to be behave differntly depending upon parameters passed to them.
+--> a method has ability to load multiple times.
+--> in method overloading we dont need inheritance
+
+
+* method overriding :
+(overrriding means replacing value)
+[
+	- multiple class, multiple methods
+	- method name must be same, but parameters must be same
+	- inheritance is requried
+]
+
+--> it is redefination of baseclass function in its derived class with same class 
+--> method signature should be the same.
+--> overloaded methods are in different scopes. 
+--> it is needed when derived class function has to do some different job than base class function.
+--> method can be overrriden only a single time
+--> in methodoverriding we need inheritance
+
+
+
+(truck valu example)

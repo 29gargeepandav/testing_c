@@ -1,0 +1,82 @@
+String Function: #include<string.h>
+
+1. Puts() :
+		prints the string
+2. gets() :
+		take a input as a string
+3. strlen() :
+		RETURN LENGTH OF THE STRING
+		Ex char a[]="hello"
+		printf("length is %d", strlen(a));
+		o/p ---> length is 5.
+4. strlwr()
+		RETURN lowercas STRING
+		Ex char a[]="HELLO"
+		printf("output is %s", strlwr(a));
+		o/p ---> output is hello.
+5. strupr()
+		RETURN Uppercase STRING
+		Ex char a[]="hello"
+		printf("output is %s", strupr(a));
+		o/p ---> output is HELLO.
+6. strrev()
+		convert into revesed string and return it
+		Ex char a[]="hello"
+		printf("output is %s", strrev(a));
+		o/p ---> output is OLLEH
+7. strcpy()
+		copy(assign) value to the string
+		Ex char a[100];
+		a="hello" , a{'h','e','l','l','o'}//  invalid
+		strcpy(a,"hello");
+		printf("%s",a);
+ 		o/p ---> hello
+8. strcat()
+		return a concatenate(join/mearged) two string as single string
+		char first_name[100]="rahul "
+		char last_name[100]="patel"
+		char full_name[100];
+		
+		strcpy(full_name, strcat(first_name, last_name)); // equal to ni madd thi apne array ne declare na kari shakiye tena mate strcpy no use kariye chiye.
+		print("%s",full_name);
+		O/P ---> rahul patel
+		
+9. strcmp()
+		return -1 or 0 or 1 as a compared value by camparing two string
+		
+		Ex char f1[100]="apple";
+		   char f2[100]="apple";
+
+			printf("%d", strcmp(f1,f2)); // formate specifierd is %d because always return integer value like -1, 0, 1 jo Ascii value ni badbaki -1 ma hoy like uper ni string capital hoy to ans -1 aavshe nd niche ni string capital hashe to +1 aavshe nd banne match thata hashe to answer 0 aavshe
+
+if(strcmp(f1,f2)== 0)
+{
+	printf("Fruits are same.....");
+}
+else
+{
+	printf("Fruits are different.....");
+}
+
+
+Email/password
+
+char email[100];
+char password[100];
+
+printf("Enter email: ");
+gets(email);
+
+printf("Eneter password :");
+gets(password);
+
+if(strcmp(username, "admin@gmail.com")==0 && strcmp(password, "123456") == 0)
+{
+	printf("Login Sucessfully.....");
+}
+else
+{
+	printf("login failed.....");
+}
+
+Password

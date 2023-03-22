@@ -1,0 +1,67 @@
+SQL:(Structured Query Language)
+--------------------------------
+
+CRUD operation
+
+C- Create / insert
+R- Read/ Retrive / Fetch/ Select
+U- Update
+D- Delete
+
+--------------------------------
+
+SQL Queries :
+
+1. CREATE DB
+Syntext :
+==> CREATE DATBASE dbname;
+
+2. CREATE TABLE
+==> CREATE TABLe tabelname(
+	col1 datatype [constarins],
+	col2 datatype [constarins],
+	.
+	.
+	.
+	coln datatype [constarins]
+);
+
+3. INSERT RECORD
+==> INSERT INTO tablename(col1, col2,.........,coln) VALUES( val1, val2,.....valn);
+Ex INSERT INTO students(id, name, age, course) VALUES(1, "Gargee", 29, "Flutter");
+
+4.  SELECT all records
+==> SELECT col1,col2...coln from tablename;
+==> SELECT* FROM tablename;
+
+5. SELECT single or Filterd record(s)
+==> SELECT * FROM tablename WHERE Conditions;
+select* from students where course="Flutter"
+ek karta vadhare condtion mukva mate AND and OR keyword no use thashe
+
+6. UPDATE record(s)
+==> UPDATE tablenmae SET col1=val1, col2=val2... coln=valn WHERE conditon;
+UPDATE studnets SET course="C++" where id=2;
+
+7. DELETE single Line
+==> DELETE FROM tablename WHERE condition;
+DELETE FROM students WHERE id=4;
+
+
+8. DELETE all record(s)
+==> DELETE FROM tablename;
+==> TRUNCATE TABLE tablename;
+
+9. DELETE a table
+==> DROP TABLE tablename;
+
+10. DELETE datbase
+==> DROP DATABASE dbname;
+
+
+PRIMARY KEY:
+
+
+
+
+

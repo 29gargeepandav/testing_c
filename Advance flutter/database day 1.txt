@@ -1,0 +1,54 @@
+Day : 1
+01/03/2013
+Time 11:00 (milan bhai)
+
+1) what is database??
+a database is an organized collection of sturctured infromation or data typically stored in computer system.
+
+a database can be stored on a file system, can be mosted on computer clusterd or cloud storage.
+
+ex.. client server architecture.
+ex. gmail new account. check ypur data in database and after will create new account or login.
+
+
+2) types of database?
+A. Local db : database store in our mobile, laptop, computer in local palce without internet access use this app.
+	for ex: Todo app( routin lakhva mate use thay), notes app etc.
+	--categories
+	
+	i) relationl db	(SQLite DB)
+	ii) non relational db (hive DB, raddis DB, Mongo DB...)
+	
+		
+B. Cloud db	: server based database using internet
+	
+	for ex: voting app
+
+	--categories
+	
+	i) relational db	(MySQL DB, postgreSQL, MS access, Oracle DB... )
+	ii) non relational db (firebased cloud firebased DB, firebased realtime DB, supbase DB, Mongo DB...)
+
+
+Relational Database :
+	- data or information stored in tabular structure.
+	- multiple tables can be related to each other.
+	- we can use SQL for managing data in DB.
+
+Non Relational Database :
+	- data or information store in collection and documents based sturcture.
+	- a collction contains multiple documents
+	- a documents contains actual data in key value pairs, documents can also contains nested collection
+
+
+	
+	
+	
+
+
+
+
+
+
+
+

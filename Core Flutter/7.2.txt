@@ -1,0 +1,33 @@
+Expnaded widgets:
+
+==> E.w can only usable inside multichild layouts widgets.
+==> that widgets can not be usabel inside stack widgets.
+==> Row and Coloumn
+==> property flex 
+==> foe ex. expanded(flex: 1)
+
+Spacer Widgets:
+--> that widgets used for apply full available space among the all widgets
+--> spacer()
+--> property flex
+--> ex spacer(flex: 1)
+
+what is Padding??
+the distance between edges(borders) and content.
+padding.EdgeInsets.all(20)
+Only(left: 40, top: ....right bottom)
+symmentric(horizontal: 100 , vertical: 100)
+
+What is margin??
+the distance between your current widgets and adjust widgets(aajubaju ni jagya)
+margin.Edgesinsets.all
+only(left,right,top,bottom) and symmetric(Horizontal, Vertical)
+
+
+Textfield Widgets:
+textfiled create karva mate use thay che.
+
+
+
+
+

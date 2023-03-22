@@ -1,0 +1,155 @@
+what is function?
+-  a block of code that is reusable.
+
+Types of function :
+	
+	1. Built-In-Function(System define function)
+	- for ex printf(), scanf(), gets(), getch(), clrscr() etc..
+
+	2. User define function(UDF)
+	- for ex red(), play(), ball() etc..
+
+	-Types of UDF
+	
+		1. Take Nothing, Return Nothing (TNRN)
+		   (Withouts Perameter, No return Value)
+
+		2. Take Something, Return Nothing (TSRN)
+		   (With perameter, No return value)
+
+		3. Take Nothing, Return Something(TNRS)
+		  (without perameter, with return value)
+
+		4. Take Something, Return Something(TSRS)
+		   (with perameter, with return value)
+
+---------------------------------------------------------
+
+notes: UDF always main() ni bahar create karvu.
+-----------------------------------------------
+
+
+void datatype : this a datatype  to a represent emptyness / blank / no any value for the return value of any function.
+void dattype e varible mate ni datatype nathi te function mate use thay che.
+
+jyare function kai j return na karavtu hoy tyare void datatype no use karvo.
+
+
+ 1. Take Nothing, Return Nothing (TNRN)
+ (Withouts Perameter, No return Value)
+
+#include(stdio.h)
+
+void yash() // define function
+{
+	printf("My name is Yash");
+}
+void main()
+{
+	printf("Hello");
+	yash(); // call the functin
+	yash();
+	printf("Bye");
+}
+
+O/p
+hello
+my name is yash.
+my name is yash.
+bye
+
+
+2. Take Something, Return Nothing (TSRN)
+(With perameter, No return value)
+
+#include(stdio.h)
+
+void yash(int n)
+{
+	printf("I receive %n rupees", n);
+	printf("No any chocklate left...........\n");
+}
+void main()
+{
+	yash(500);
+	yash(1500);
+}
+
+o/p
+I received 500 rupees
+No any chocklate left........
+
+I received 1500 rupees
+No any chocklate left........
+
+
+
+Notes: jyare main function pachi UDF lakhyu hoy tyare function prototype aapvo
+------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+
+void yash(int) // function prototype
+
+void main()
+{
+	yash(500);
+	yash(1500);
+}
+
+void yash(int n)
+{
+	printf("I receive %n rupees", n);
+	printf("No any chocklate left...........\n");
+}
+
+--------------------------------------------------
+No. of arguments == No. og parameter
+------------------------------------------------------
+
+#include<stdio.h>
+
+void add(int a, int b) // parameter
+{
+	printf("addition of %d and %d is %d", a,b,a+b);
+}
+void sub(int a, int b)
+{
+	printf("Substraction of %d and %d is %d", a,b,a-b);
+}
+void mul(int a, int b)
+{
+	printf("multiplication of %d and %d is %d", a,b,a*b);
+}
+void div(int a, int b)
+{
+	printf("division of %d and %d is %d", a,b,a/b);
+}
+void mod(int a, int b)
+{
+	printf("modulas of %d and %d is %d", a,b,a%b);
+}
+void main()
+{
+	add(15, 20); //15,20 arguments 
+	sub(20, 15);
+	mul(20, 5);
+	div(20, 10);
+	mod(20, 10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Operator Overloading
+-----------------------
+
+--> it is compile-time polymorphism.
+--> to provide an additional or speacial maening to any available operator without changing its orignial meaning or funcitonality.
+--> if both methods (for prefix and postfix) opertor++() are available in same class then we must have to differntciate between. we mst have have to diffentciate opertor++() method for postfix operator by adding an extra int parameter to operator++() method such as opertor++(int)
+
+(forcefully koi operator sathe work karaviye)
+
+--> Binary and unary operator can be overloaded.
+--> Operators which cannot be overloaded.
+	1. ternury Operator		?:
+	2. Sizeof operator		sizeof()
+	3. Membership Operator		.
+	4. Scope Resolution Operator	::
+	5. Identity Operator 		.*
+
+(notes :
+--> if retrive to overload both prefix and postfix in a single class then we must have to differntciate opertor++()
+--> we must have to indicate operator++() with extra integer perameter to invoke for the postifx operator
+-->  for ex. opertor++(int)
+)
+
